@@ -18,18 +18,6 @@ public class Main {
 		pasta.setDescription("Macarrão Chico");
 		pasta.setPrice(15);
 		
-		/*SaleItem itemRice = new SaleItem();
-		itemRice.setProduct(rice);
-		itemRice.setQuantity(2);
-		
-		SaleItem itemBeans = new SaleItem();
-		itemBeans.setProduct(beans);
-		itemBeans.setQuantity(1);
-		
-		SaleItem itemPasta = new SaleItem();
-		itemPasta.setProduct(pasta);
-		itemPasta.setQuantity(6);*/
-		
 		Sale sale = new Sale();
 		sale.addSaleItem(rice, 2);
 		sale.addSaleItem(beans, 4);
